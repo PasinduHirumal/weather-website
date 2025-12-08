@@ -3,6 +3,7 @@ import LoadingSpinner from "./components/LoadingSpinner"
 import SearchBar from "./components/SearchBar"
 import TemperatureToggle from "./components/TemperatureToggle"
 import WeatherCard from "./components/WeatherCard"
+import WeatherForecast from "./components/WeatherForecast"
 
 function App() {
 
@@ -58,8 +59,8 @@ function App() {
                 <div className="xl:col-span-2">
                   <WeatherCard />
                 </div>
-                <div className="">
-                  
+                <div className="xl:col-span-1">
+                  <WeatherForecast />
                 </div>
               </div>
             </div>
